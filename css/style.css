@@ -1,0 +1,251 @@
+body{
+    overflow-x: hidden;
+    line-height: 1.5;
+    font-size: 1.1em;
+    color: #fff;
+    background: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.head{
+    position: absolute;
+    background: #333 url(https://static.pexels.com/photos/248515/pexels-photo-248515.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.content{
+    margin: 0px auto;
+    padding: 0 1.5em;
+    height: 450px;
+    width: 880px;
+}
+
+.content p{
+    white-space: normal;
+}
+
+.content-title{
+    margin: 0px;
+    padding: 1em 0;
+}
+
+.content-text{
+    columns: 2;
+}
+
+img{
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+h1{
+    margin: 0px;
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+h2{
+    padding: 1em 0;
+    margin: 0px;
+}
+
+p{
+    margin: 0;
+    padding: 1em 0;
+}
+
+.btn{
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    margin: 0.5em 0;
+    border: 1px solid #666;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #333;
+}
+
+/* MAIN */
+
+#main{
+    display: block;
+}
+
+#section-a{
+    padding-bottom: 2em;
+    color: #333;
+    background-color: #eaeaea;
+    height: 189px;
+}
+
+#section-a .content{
+    padding: 0 1.5em;
+}
+
+#section-a .content-text{
+    columns: 2;
+    column-gap: 2em;
+}
+
+#section-a .content-text p{
+    padding-top: 0px;
+    white-space: pre-wrap;
+}
+
+.text-center p{
+    padding-top: 0px;
+}
+
+/* main B */
+
+#section-b{
+    display: inline-block; 
+    padding: 2em 1em;
+}
+
+#section-b ul{
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+}
+
+.card-content{
+    background-color: #eaeaea;
+    color: #333;
+    width: 220px;
+    padding: 1.5em;
+}
+
+.content-b{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    width: 273px;
+    height: 499px;
+    border-left: 20px solid #333
+}
+
+h3{
+    margin: 0px;
+    padding: 1em 0;
+}
+
+.content-b img{
+    width: 272.8px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.content-b .card-content p{
+    padding: 0;
+    margin: 1em 0;
+    white-space:normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Section C */
+
+.section-c{
+    padding: 2em;
+    background-color: #fff;
+    color: #333;
+}
+
+.content-c{
+    margin: 0px auto;
+    padding: 0 1.5em;
+    height: 180px;
+    width: 880px;
+}
+
+/* Section D */
+
+#leftc{
+    background-color: #2191d5;
+    color: #fff;
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+
+#rightc{
+    background-color: #333;
+    color: #fff;
+    float: right;
+    width: 50%;
+    height: 300px;
+}
+
+#rightc p{
+    padding: 25.2px;
+    white-space: normal;
+}
+
+#rightc h2{
+    padding-top: 61.6px;
+}
+
+#leftc p{
+    padding: 25.2px;
+    white-space: normal;
+}
+
+#leftc h2{
+    padding-top: 61.6px;
+}
+
+#leftc :nth-child(3){
+    padding-top: 0;
+}
+
+/* foot */
+
+#foot-left{
+    background-color: black;
+    color: #fff;
+    height: 97px;
+    float: left;
+    width: 50%;
+}
+
+
+#foot-right{
+    background-color: black;
+    color: #fff;
+    height: 97px;
+    float: right;
+    width: 50%;
+}
+
+#foot-left p{
+    padding: 35px;
+}
+
+#foot-right p{
+    padding: 35px;
+}
+
+#foot-right a{
+    text-decoration: none;
+    color: #186688;
+}
+
+
